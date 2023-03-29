@@ -2,7 +2,8 @@
 import React from 'react'
 import { content } from '../Content'
 import { motion } from 'framer-motion'
-import Experience from './Experience';
+
+
 
 const skillsList = content.skillsList
 
@@ -57,7 +58,7 @@ const Skills = () => {
         {/* Skills */}
         <motion.div className={`ml-4 mb-6 flex-1 flex justify-start gap-3 items-start flex-col custom-MediaQuery1:flex-row`}>
           {skillsList.map((skill, index) => (
-            <SkillCard index={index} {...skill} />
+            <SkillCard key={index} index={index} {...skill} />
           ))}
         </motion.div>
       </div>

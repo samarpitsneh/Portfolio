@@ -15,8 +15,9 @@ const Navbar = () => {
       <Logo />
 
       {/* List of links */}
+   
       <ul className="list-none md:flex hidden justify-end items-center flex-1">
-        {navs.map((nav, index) => (
+        {navs.map((nav) => (
           <li
             key={nav.id}
             className={`font-poppins
@@ -29,7 +30,6 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-
       {/* only for mobile devices*/}
       <div className="md:hidden flex flex-1 justify-end items-center">
         <img
@@ -61,6 +61,8 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
+
+            
         </div>
       </div>
     </nav>

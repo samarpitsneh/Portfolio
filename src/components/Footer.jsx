@@ -34,7 +34,7 @@ const Footer = () => (
 
         <div className="grid grid-cols-2">
           <a href={resumeLink} target="_blank">
-            <Button styles="mt-10 mr-3" text="Resume" icon="AiFillGithub" />
+            <Button styles="mt-10 mr-3" text="Resume" icon={AiFillGithub} />
           </a>
           <a href={repoLink} target="_blank">
             <Button
@@ -48,7 +48,7 @@ const Footer = () => (
 
       <div className="mt-10 md:mt-0">
         <img
-          src="https://assets.leetcode.com/users/avatars/avatar_1645015636.png"
+          src="https://assets.leetcode.com/users/avatars/avatar_1679946729.png"
           alt="Sudhanva Nadiger"
           className="w-[200px] h-[200px] border-2 border-dark_primary relative z-[5] rounded-full"
         />

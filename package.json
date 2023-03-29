@@ -28,5 +28,9 @@
     "postcss": "^8.4.18",
     "tailwindcss": "^3.2.3",
     "vite": "^3.2.3"
-  }
+  },
+  "description": "![image](https://user-images.githubusercontent.com/93595710/218269495-00433bd1-e725-4bf5-94fd-2510d4539215.png)",
+  "main": "vite.config.js",
+  "author": "",
+  "license": "ISC"
 }

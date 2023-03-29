@@ -44,7 +44,7 @@ const Hero = () => {
 							{hero.sub2}
 						</h2>
 						<div className="flex flex-col w-full items-center ">
-							<h1 className=" text-dark_primary font-Poppins text-[56px] leading-[70px]">
+							<h1 className=" text-dark_primary  text-center font-Poppins text-[56px] leading-[70px]">
 								{hero.firstName}
 								<span className="text-dark_primary"> <h1 className="text-[56px] sm:text-inherit text-center font-Poppins leading-[75px]" >{hero.LastName}</h1></span>
 							</h1>
@@ -68,11 +68,12 @@ const Hero = () => {
 					</div>
 
 					<motion.div
-						whileInView={{ y: [20, 0], opacity: [0, 1] }}
+						className='flex-1 flex flex-col items-center'
+						whileInView={{ y: [40, 0], opacity: [0, 1] }}
 						transition={{ duration: 1, type: 'spring', stiffness: "120" }}
 					>
 						<a href={linkedInLink} target="_blank">
-							<Button styles={'w-full bg-letsConnect font-bold mt-3'} text={'Lets connect'} />
+							<Button styles={'w-full  bg-letsConnect font-bold mt-3 '} text={'Lets connect'} />
 						</a>
 					</motion.div>
 				</div>
